@@ -15,4 +15,6 @@
     width: 317px;
     height: 399px;
     text-align: center;
+    box-sizing: border-box;
+    padding-inline: 35px;
 }
