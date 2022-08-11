@@ -1,21 +1,14 @@
 import React from 'react'
 
+import '../styles/button.css'
+
 const Button = ({ icon, text, color, bgColor }) => {
     return (
-        <button type='button' style={{
-            width: "100%",
-            marginTop: 6,
-            width: 115,
-            height: 34,
-            backgroundColor: bgColor,
-            color,
-            display: "flex",
-            justifyContent: "space-evenly",
-            alignItems: "center",
-            borderRadius: 6,
-            fontSize: 14,
-            border: "0px"
-        }}>
+        <button
+            type='button'
+            className='button-component'
+            style={{ backgroundColor: bgColor, color }}
+        >
             {icon}
             {text}
         </button>

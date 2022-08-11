@@ -1,0 +1,17 @@
+.content-footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 10px 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 34px;
+    background-color: #161619;
+    margin-bottom: 0px;
+    padding: 10px 40px;
+    font-size: 25px;
+    color: #918E9B;
+
+}

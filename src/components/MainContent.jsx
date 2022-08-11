@@ -1,10 +1,11 @@
-import React from 'react'
+
+import { HiMail } from "react-icons/hi";
+import { AiFillLinkedin } from "react-icons/ai";
+
 import image from "../assets/image.png";
 import '../styles/main.css'
 import Button from './Button';
 import Description from './Description';
-import { HiMail } from "react-icons/hi";
-import { AiFillLinkedin } from "react-icons/ai";
 import AboutInterst from './AboutInterst';
 import Footer from './Footer';
 
@@ -14,18 +15,13 @@ const MainContent = () => {
             <img src={image} alt="" />
             <div className='body'>
                 <Description />
-                <div style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    marginBottom: 30,
-                    paddingInline: 35
-                }}>
+                <div className="content-button">
                     <Button
-                        icon={<HiMail style={{ fontSize: 16 }} />}
+                        icon={<HiMail className="icon" />}
                         text="Email"
                     />
                     <Button
-                        icon={<AiFillLinkedin style={{ fontSize: 16 }} />}
+                        icon={<AiFillLinkedin className="icon" />}
                         text="Linkedin"
                         bgColor="#5093E2"
                         color="white"

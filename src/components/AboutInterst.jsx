@@ -1,19 +1,13 @@
 import React from 'react'
+import '../styles/aboutInterest.css'
 
 const AboutInterst = ({ title, description }) => {
     return (
-        <div style={{ textAlign: "start", paddingInline: 35 }}>
-            <h3 style={{
-                fontSize: 16,
-                color: "#F5F5F5",
-                marginBottom: 10
-            }}>
+        <div className='content'>
+            <h3 className='title'>
                 {title}
             </h3>
-            <p style={{
-                fontSize: 10.24,
-                color: "#DCDCDC"
-            }}>
+            <p className='description'>
                 {description}
             </p>
         </div>

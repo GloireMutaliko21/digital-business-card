@@ -1,0 +1,11 @@
+.button-component {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 0px;
+    width: 115px;
+    margin-top: 6px;
+    height: 34px;
+}

@@ -1,0 +1,15 @@
+.content {
+    text-align: start;
+    padding-inline: 35px;
+}
+
+.title {
+    font-size: 16px;
+    color: #F5F5F5;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 10.24px;
+    color: #DCDCDC;
+}

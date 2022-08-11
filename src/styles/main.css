@@ -20,3 +20,14 @@
     box-sizing: border-box;
     border-radius: 0 0 10px 10px;
 }
+
+.content-button {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-inline: 35px;
+}
+
+.icon {
+    font-size: 16px;
+}
